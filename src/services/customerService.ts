@@ -1,7 +1,6 @@
 import { supabase } from '@/lib/supabase/client';
 import type { Database } from '@/lib/supabase/types';
 
-type Customer = Database['public']['Tables']['customers']['Row'];
 type CustomerInsert = Database['public']['Tables']['customers']['Insert'];
 type CustomerUpdate = Database['public']['Tables']['customers']['Update'];
 

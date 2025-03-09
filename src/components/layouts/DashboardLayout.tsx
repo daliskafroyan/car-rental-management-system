@@ -3,7 +3,6 @@ import { Outlet, Link, useLocation } from 'react-router-dom';
 import { Dialog, Menu, Transition } from '@headlessui/react';
 import {
     Bars3Icon,
-    XMarkIcon,
     ChartBarIcon,
     UserGroupIcon,
     TruckIcon,

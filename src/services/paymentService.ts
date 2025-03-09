@@ -2,8 +2,6 @@ import { supabase } from '@/lib/supabase/client';
 import type { Database } from '@/lib/supabase/types';
 
 type Payment = Database['public']['Tables']['payments']['Row'];
-type PaymentInsert = Database['public']['Tables']['payments']['Insert'];
-type PaymentUpdate = Database['public']['Tables']['payments']['Update'];
 
 export const paymentService = {
     async getAll() {

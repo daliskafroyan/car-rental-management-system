@@ -1,9 +1,7 @@
 import { supabase } from '@/lib/supabase/client';
 import type { Database } from '@/lib/supabase/types';
 
-type Rental = Database['public']['Tables']['rentals']['Row'];
 type RentalInsert = Database['public']['Tables']['rentals']['Insert'];
-type RentalUpdate = Database['public']['Tables']['rentals']['Update'];
 
 export const rentalService = {
     async getAll() {
